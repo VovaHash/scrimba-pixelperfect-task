@@ -1,0 +1,116 @@
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 720px;
+    font-style: normal;
+    text-align: center;
+}
+
+.hero{
+    background-color: blue;
+    padding: 120px 150px;
+    text-align: center;
+    background: url('./img/torshov-image.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-header{
+    width: fit-content;
+    margin: 0 auto 11px;
+    font-size: 32px;
+    font-weight: bold;
+    background-color:  #1D3557;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 3px 12px;
+}
+
+.hero-sub{
+    padding: 5px 30px;
+    background-color: #457B9D;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 10px;
+    color: #FFFFFF;
+    letter-spacing: 0.0105em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.14rem;
+}
+
+
+.panels{
+    padding: 58px 34px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F1FAEE;
+
+}
+
+.panels-colum{
+    display: flex;
+    flex-direction: column;
+    color: #1D3557;
+    align-items: center;
+    max-width: 198px;
+
+}
+
+.panel-column-img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.panel-colum-header{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 22px auto 15px;
+
+}
+
+.panel-column-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer{
+    padding: 50px 160px;
+}
+.footer-card{
+    max-width: 400px;
+    background-color: #A8DADC;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px #1D3557;
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 12px 17px 12px;
+}
+
+.footer-card-img > img{
+    width: 180px;
+}
+
+.footer-card-text{
+    color: #1D3557;
+    max-width: 189px;
+
+}
+
+.footer-card-text-header{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-card-text-quote{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-card-text-author{
+    font-weight: 700;
+    font-size: 16px;
+}
